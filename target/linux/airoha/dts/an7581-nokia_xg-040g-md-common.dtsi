@@ -208,7 +208,7 @@
 	 * The MD variant uses the switch PHY2 link-change interrupt.
 	 * The TF board removes this property and uses phylib polling.
 	 */
-	interrupts = <2>;
+	
 
 	pinctrl-names = "gbe-led";
 	pinctrl-0 = <&gswp2_led0_pins>;
@@ -232,7 +232,7 @@
 &gsw_phy3 {
 	status = "okay";
 
-	interrupts = <3>;
+	
 
 	pinctrl-names = "gbe-led";
 	pinctrl-0 = <&gswp3_led0_pins>;
@@ -256,7 +256,7 @@
 &gsw_phy4 {
 	status = "okay";
 
-	interrupts = <4>;
+	
 
 	pinctrl-names = "gbe-led";
 	pinctrl-0 = <&gswp4_led0_pins>;
